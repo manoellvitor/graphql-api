@@ -1,0 +1,21 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "Simple GraphQl API",
+  "main": "index.js",
+  "repository": "https://github.com/manoellvitor/graphql-api.git",
+  "author": "Manoel Vitor <manoelvitorka@gmail.com>",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "mongoose": "^5.10.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
