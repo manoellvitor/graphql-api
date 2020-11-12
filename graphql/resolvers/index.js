@@ -8,7 +8,7 @@ module.exports = {
                 return {
                     ...article._doc,
                     _id: article.id,
-                    createAt: new Date(article._doc.createAt).toISOString(),
+                    createdAt: new Date(article._doc.createdAt).toISOString(),
                 }
             })
         } catch (error) {
